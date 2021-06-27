@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(#02858a , #0be4c0);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.days-span{
+    position: absolute;
+    font-size: 26px;
+    top: 54%;
+    left: 38%;
+    letter-spacing: 1px;
+}
+
+.hours-span{
+    position: absolute;
+    font-size: 25px;
+    top: 54%;
+    left: 35%;
+    letter-spacing: 0.8px;
+}
+
+
+.birthday{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 100px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.display{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 31px;
+    font-weight: 600;
+    position: relative;
+}
+
+.day--div{
+    font-size: 31px;
+}
+
+.time-div{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.track{
+    stroke: rgb(219, 215, 215);
+    stroke-width: 8;
+    fill:none;
+}
+
+.progress-day-svg,.progress-hour-svg, .progress-minute-svg, .progress-second-svg{
+    fill: none;
+    stroke: rgb(224, 24, 24);
+    stroke-width: 8;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+
+
+.day--div,.hour--div, .minute--div, .second--div{
+    position: relative;
+    width: 210px;
+}
+
+.day--div h2,.hour--div h2, .minute--div h2, .second--div h2{
+    position: absolute;
+    top: 30%;
+    left: 39%;
+}
+
